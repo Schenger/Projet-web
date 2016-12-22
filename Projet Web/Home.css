@@ -1,0 +1,29 @@
+body
+{
+background: url("Mario.jpg") no-repeat center top;
+background-size: cover;
+
+}
+
+h1 
+{
+font-size: 64px; text-align: center;
+color: maroon;
+font-weight: 1500;
+font-family: New Century Schoolbook, serif;
+}
+
+li
+{
+list-style-type: none;
+font-size: 35px; text-align: center;
+border: 5px black outset; border-radius: 20px; border-left-margin: 10px;
+
+}
+
+a
+{
+color: teal;
+text-decoration: none;
+}
+
