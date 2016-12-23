@@ -2,7 +2,8 @@ body
 {
 background: url("Mario.jpg") no-repeat center top;
 background-size: cover;
-
+font-family: trebuchet, helvetica, sans-serif;
+font-weight: bold;
 }
 
 h1 
@@ -10,8 +11,6 @@ h1
 font-size: 64px; 
 text-align: center;
 color: maroon;
-font-weight: 1500;
-font-family: New Century Schoolbook, serif;
 }
 
 li
