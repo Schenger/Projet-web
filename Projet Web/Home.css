@@ -1,6 +1,6 @@
 body
 {
-background: url("Mario.gif") no-repeat;
+background: url("Mario.gif") ;
 background-size: cover;
 font-family: trebuchet, helvetica, sans-serif;
 font-weight: bold;
