@@ -1,0 +1,32 @@
+body
+{
+background: url("Retro-fond.jpg");
+background-size: cover;
+font-family: trebuchet, helvetica, sans-serif;
+font-weight: bold;
+}
+
+h1
+{
+font-size: 4vw;
+text-align: center;
+color: white;
+margin-left: 15vw;
+margin-right: 15vw
+}
+
+p
+{
+
+text-align: justify;
+color: white;
+margin-left: 15vw;
+margin-right: 15vw;
+}
+
+video
+{
+height: 80vmin;
+margin-left: 15vw;
+margin-right: 15vw;
+}
