@@ -2,12 +2,12 @@ body
 {
 background: url("Retro-fond.jpg");
 background-size: cover;
-font-family: trebuchet, helvetica, sans-serif;
-font-weight: bold;
+cursor: url('normal.cur'), pointer;
 }
 
 h1
 {
+font-family: Tetris, sans-serif;
 font-size: 4vw;
 text-align: center;
 color: white;
@@ -17,7 +17,7 @@ margin-right: 15vw
 
 p
 {
-
+font-family: trebuchet, helvetica, sans-serif;
 text-align: justify;
 color: white;
 margin-left: 15vw;
@@ -29,4 +29,14 @@ video
 height: 80vmin;
 margin-left: 15vw;
 margin-right: 15vw;
+cursor: url('link.cur'), pointer;
 }
+
+a
+{
+cursor: url('link.cur'), pointer;
+}
+
+@font-face {
+    font-family: "Tetris";
+    src: url('Tetris.ttf');
