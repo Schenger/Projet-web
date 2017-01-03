@@ -4,7 +4,9 @@ background: url("Mario.gif") ;
 background-size: cover;
 font-family: trebuchet, helvetica, sans-serif;
 font-weight: bold;
+cursor: url('normal.cur'), pointer;
 }
+
 
 h1 
 {
@@ -31,5 +33,6 @@ a
 color: teal;
 text-decoration: none;
 display: block;
+cursor: url('link.cur'), pointer;
 }
 
