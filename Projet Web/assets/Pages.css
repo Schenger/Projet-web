@@ -36,6 +36,15 @@ a
 cursor: url('gam1501.cur'), pointer;
 }
 
+.petit
+{
+text-align: center;
+align: bottom;
+color: white;
+font-size: 0.8vw;
+text-decoration: underline;
+}
+
 
 @font-face 
 {

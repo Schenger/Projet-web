@@ -46,6 +46,15 @@ margin-left: 15vw;
 margin-left: 15vw;
 }
 
+.petit
+{
+text-align: center;
+align: bottom;
+color: white;
+font-size: 0.8vw;
+text-decoration: underline;
+}
+
 
 @font-face 
 {

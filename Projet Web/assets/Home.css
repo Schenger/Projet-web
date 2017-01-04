@@ -36,6 +36,15 @@ display: block;
 cursor: url('gam1501.cur'), pointer;
 }
 
+.petit
+{
+text-align: center;
+align: bottom;
+color: black;
+font-size: 0.8vw;
+text-decoration: underline;
+}
+
 @font-face {
     font-family: "Tetris";
     src: url('Tetris.ttf');
