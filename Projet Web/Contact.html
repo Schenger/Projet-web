@@ -1,0 +1,54 @@
+<!DOCTYPE HTML>
+
+<html>
+<head>
+
+<meta http-equiv="Content-Type" content="text/html; charset="utf-8">
+<link rel="stylesheet" href="assets/Contact.css">
+<title>Contact</title>
+
+</head>
+
+<body>
+
+<h1>Nous contacter</h1> 
+
+<form method="post" action="traitement.php">
+<legend>Vos coordonées :</legend>
+<label for "nom" class="class">Nom :</label>
+<input type="text" name="nom" id="nom" /> <br />
+<label for "age" class="class">Age :</label>
+<input type="text" name="age" id="age" /> <br />
+<label for "mail" class="class">Mail :</label>
+<input type="email" name="mail" id="mail" /> <br /> <br />
+<label for "pays" class="class">Pays :</label><br />
+<select name="pays" id="pays" class="class">
+<option value="france">France</option>
+<option value="espagne">Espagne</option>
+<option value="italie">Italie</option>
+<option value="royaume-uni">Royaume-Uni</option>
+</select>
+</legend>
+
+<p>
+Motif du contact :<br />
+<input type="checkbox" name="Bug" id="Bug" /> 
+<label for="Bug">Bug</label><br />
+<input type="checkbox" name="Information" id="Information" /> 
+<label for="steak">Information</label><br />
+<input type="checkbox" name="Autre" id="Autre" /> 
+<label for="epinards">Autre</label><br />
+</p>
+
+<label for="ameliorer" class="class">
+Détail :
+</label>
+<br />
+       
+<textarea name="ameliorer" id="ameliorer" rows="10" cols="50" class="class">
+</textarea>
+</form>
+<input type="submit" value="Envoyer" class="class"/>
+</body>
+
+</html>

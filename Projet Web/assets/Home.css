@@ -2,9 +2,7 @@ body
 {
 background: url("Mario.gif") ;
 background-size: cover;
-font-family: Tetris, sans-serif;
-font-weight: bold;
-cursor: url('normal.cur'), pointer;
+cursor: url('gam1500.cur'), pointer;
 }
 
 
@@ -13,11 +11,13 @@ h1
 font-size: 4vw; 
 text-align: center;
 color: maroon;
+font-family: Tetris, sans-serif;
 }
 
 li
 {
 list-style-type: none;
+font-family: Roboto, sans-serif;
 font-size: 2.2vw; 
 text-align: center;
 border: 0.4vw black outset;
@@ -33,9 +33,14 @@ a
 color: #099132;
 text-decoration: none;
 display: block;
-cursor: url('link.cur'), pointer;
+cursor: url('gam1501.cur'), pointer;
 }
 
 @font-face {
     font-family: "Tetris";
     src: url('Tetris.ttf');
+
+
+@font-face {
+    font-family: "Roboto";
+    src: url('Roboto-Thin.ttf');
