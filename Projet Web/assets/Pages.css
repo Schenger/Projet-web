@@ -22,6 +22,7 @@ text-align: justify;
 color: white;
 margin-left: 15vw;
 margin-right: 15vw;
+line-height: 4vmin;
 }
 
 video
@@ -34,6 +35,14 @@ margin-right: 15vw;
 a
 {
 cursor: url('gam1501.cur'), pointer;
+color: orange;
+}
+
+img
+{
+height: 30vmax;
+margin-left: 15vw;
+margin-right: 15vw;
 }
 
 .petit
@@ -44,7 +53,6 @@ color: white;
 font-size: 0.8vw;
 text-decoration: underline;
 }
-
 
 @font-face 
 {

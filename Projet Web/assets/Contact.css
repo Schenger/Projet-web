@@ -41,6 +41,12 @@ color: white;
 margin-left: 15vw;
 }
 
+footer
+{
+position: absolute;
+bottom: 0;
+}
+
 .class
 {
 margin-left: 15vw;
